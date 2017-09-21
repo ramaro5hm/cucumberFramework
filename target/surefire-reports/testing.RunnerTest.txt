@@ -1,0 +1,22 @@
+-------------------------------------------------------------------------------
+Test set: testing.RunnerTest
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 11.345 sec <<< FAILURE! - in testing.RunnerTest
+Then the result should be 6(Scenario: addition of two numbers)  Time elapsed: 0.005 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<6> but was:<7>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:645)
+	at org.junit.Assert.assertEquals(Assert.java:631)
+	at testing.CalculatorStepDef.the_result_should_be(CalculatorStepDef.java:42)
+	at ?.Then the result should be 6(testing/calculator.feature:6)
+
+Scenario: addition of two numbers  Time elapsed: 0.005 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<6> but was:<7>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:645)
+	at org.junit.Assert.assertEquals(Assert.java:631)
+	at testing.CalculatorStepDef.the_result_should_be(CalculatorStepDef.java:42)
+	at ?.Then the result should be 6(testing/calculator.feature:6)
+
